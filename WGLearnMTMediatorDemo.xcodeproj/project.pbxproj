@@ -9,12 +9,18 @@
 /* Begin PBXBuildFile section */
 		3272286A209305C800FF7ADB /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 32722869209305C800FF7ADB /* AppDelegate.m */; };
 		3272286D209305C800FF7ADB /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3272286C209305C800FF7ADB /* ViewController.m */; };
-		32722870209305C800FF7ADB /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3272286E209305C800FF7ADB /* Main.storyboard */; };
 		32722872209305C800FF7ADB /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 32722871209305C800FF7ADB /* Assets.xcassets */; };
 		32722875209305C800FF7ADB /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 32722873209305C800FF7ADB /* LaunchScreen.storyboard */; };
 		32722878209305C800FF7ADB /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 32722877209305C800FF7ADB /* main.m */; };
 		32722882209305C800FF7ADB /* WGLearnMTMediatorDemoTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 32722881209305C800FF7ADB /* WGLearnMTMediatorDemoTests.m */; };
 		3272288D209305C800FF7ADB /* WGLearnMTMediatorDemoUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 3272288C209305C800FF7ADB /* WGLearnMTMediatorDemoUITests.m */; };
+		327228A020931D0A00FF7ADB /* CTMediator+TAPersonInfo.m in Sources */ = {isa = PBXBuildFile; fileRef = 3272289F20931D0A00FF7ADB /* CTMediator+TAPersonInfo.m */; };
+		327228A320931D3600FF7ADB /* CTMediator+TAPersonPreference.m in Sources */ = {isa = PBXBuildFile; fileRef = 327228A220931D3600FF7ADB /* CTMediator+TAPersonPreference.m */; };
+		327228A620931E9300FF7ADB /* WGPersonInfoViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 327228A520931E9300FF7ADB /* WGPersonInfoViewController.m */; };
+		327228A920931F1100FF7ADB /* Target_WGPersonInfoViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 327228A820931F1100FF7ADB /* Target_WGPersonInfoViewController.m */; };
+		32EAD14E20A3134100303F8D /* WGPersonPreferenceViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 32EAD14D20A3134100303F8D /* WGPersonPreferenceViewController.m */; };
+		32EAD15120A3137300303F8D /* Target_WGPersonPreferenceViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 32EAD15020A3137300303F8D /* Target_WGPersonPreferenceViewController.m */; };
+		F157F71A0630AEA17A35D6FD /* libPods-WGLearnMTMediatorDemo.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 548022E16851487050B06616 /* libPods-WGLearnMTMediatorDemo.a */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -40,7 +46,6 @@
 		32722869209305C800FF7ADB /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
 		3272286B209305C800FF7ADB /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
 		3272286C209305C800FF7ADB /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
-		3272286F209305C800FF7ADB /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		32722871209305C800FF7ADB /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		32722874209305C800FF7ADB /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		32722876209305C800FF7ADB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -51,6 +56,21 @@
 		32722888209305C800FF7ADB /* WGLearnMTMediatorDemoUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = WGLearnMTMediatorDemoUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		3272288C209305C800FF7ADB /* WGLearnMTMediatorDemoUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = WGLearnMTMediatorDemoUITests.m; sourceTree = "<group>"; };
 		3272288E209305C800FF7ADB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		3272289E20931D0A00FF7ADB /* CTMediator+TAPersonInfo.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = "CTMediator+TAPersonInfo.h"; path = "WGLearnMTMediatorDemo/WGCategory/CTMediator+TAPersonInfo.h"; sourceTree = SOURCE_ROOT; };
+		3272289F20931D0A00FF7ADB /* CTMediator+TAPersonInfo.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; name = "CTMediator+TAPersonInfo.m"; path = "WGLearnMTMediatorDemo/WGCategory/CTMediator+TAPersonInfo.m"; sourceTree = SOURCE_ROOT; };
+		327228A120931D3600FF7ADB /* CTMediator+TAPersonPreference.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "CTMediator+TAPersonPreference.h"; sourceTree = "<group>"; };
+		327228A220931D3600FF7ADB /* CTMediator+TAPersonPreference.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "CTMediator+TAPersonPreference.m"; sourceTree = "<group>"; };
+		327228A420931E9300FF7ADB /* WGPersonInfoViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = WGPersonInfoViewController.h; sourceTree = "<group>"; };
+		327228A520931E9300FF7ADB /* WGPersonInfoViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = WGPersonInfoViewController.m; sourceTree = "<group>"; };
+		327228A720931F1100FF7ADB /* Target_WGPersonInfoViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Target_WGPersonInfoViewController.h; sourceTree = "<group>"; };
+		327228A820931F1100FF7ADB /* Target_WGPersonInfoViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Target_WGPersonInfoViewController.m; sourceTree = "<group>"; };
+		32EAD14C20A3134100303F8D /* WGPersonPreferenceViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = WGPersonPreferenceViewController.h; sourceTree = "<group>"; };
+		32EAD14D20A3134100303F8D /* WGPersonPreferenceViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = WGPersonPreferenceViewController.m; sourceTree = "<group>"; };
+		32EAD14F20A3137300303F8D /* Target_WGPersonPreferenceViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Target_WGPersonPreferenceViewController.h; sourceTree = "<group>"; };
+		32EAD15020A3137300303F8D /* Target_WGPersonPreferenceViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Target_WGPersonPreferenceViewController.m; sourceTree = "<group>"; };
+		548022E16851487050B06616 /* libPods-WGLearnMTMediatorDemo.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-WGLearnMTMediatorDemo.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		7708D9CEA609DD52F1231B20 /* Pods-WGLearnMTMediatorDemo.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-WGLearnMTMediatorDemo.release.xcconfig"; path = "Pods/Target Support Files/Pods-WGLearnMTMediatorDemo/Pods-WGLearnMTMediatorDemo.release.xcconfig"; sourceTree = "<group>"; };
+		89693CBC03B13FDAF663BDEA /* Pods-WGLearnMTMediatorDemo.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-WGLearnMTMediatorDemo.debug.xcconfig"; path = "Pods/Target Support Files/Pods-WGLearnMTMediatorDemo/Pods-WGLearnMTMediatorDemo.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,6 +78,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F157F71A0630AEA17A35D6FD /* libPods-WGLearnMTMediatorDemo.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -85,6 +106,8 @@
 				32722880209305C800FF7ADB /* WGLearnMTMediatorDemoTests */,
 				3272288B209305C800FF7ADB /* WGLearnMTMediatorDemoUITests */,
 				32722866209305C800FF7ADB /* Products */,
+				49813020B1670146C0B9E4E6 /* Pods */,
+				F8F35BD2CDBE76E0A51AB5D6 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -101,11 +124,12 @@
 		32722867209305C800FF7ADB /* WGLearnMTMediatorDemo */ = {
 			isa = PBXGroup;
 			children = (
+				3272289B209317BD00FF7ADB /* WGTargetAndAction */,
+				3272289A2093177B00FF7ADB /* WGCategory */,
 				32722868209305C800FF7ADB /* AppDelegate.h */,
 				32722869209305C800FF7ADB /* AppDelegate.m */,
 				3272286B209305C800FF7ADB /* ViewController.h */,
 				3272286C209305C800FF7ADB /* ViewController.m */,
-				3272286E209305C800FF7ADB /* Main.storyboard */,
 				32722871209305C800FF7ADB /* Assets.xcassets */,
 				32722873209305C800FF7ADB /* LaunchScreen.storyboard */,
 				32722876209305C800FF7ADB /* Info.plist */,
@@ -132,6 +156,65 @@
 			path = WGLearnMTMediatorDemoUITests;
 			sourceTree = "<group>";
 		};
+		3272289A2093177B00FF7ADB /* WGCategory */ = {
+			isa = PBXGroup;
+			children = (
+				3272289E20931D0A00FF7ADB /* CTMediator+TAPersonInfo.h */,
+				3272289F20931D0A00FF7ADB /* CTMediator+TAPersonInfo.m */,
+				327228A120931D3600FF7ADB /* CTMediator+TAPersonPreference.h */,
+				327228A220931D3600FF7ADB /* CTMediator+TAPersonPreference.m */,
+			);
+			path = WGCategory;
+			sourceTree = "<group>";
+		};
+		3272289B209317BD00FF7ADB /* WGTargetAndAction */ = {
+			isa = PBXGroup;
+			children = (
+				3272289D2093192100FF7ADB /* TAPersonPrefrence */,
+				3272289C209318CE00FF7ADB /* TAPersonInfo */,
+			);
+			path = WGTargetAndAction;
+			sourceTree = "<group>";
+		};
+		3272289C209318CE00FF7ADB /* TAPersonInfo */ = {
+			isa = PBXGroup;
+			children = (
+				327228A420931E9300FF7ADB /* WGPersonInfoViewController.h */,
+				327228A520931E9300FF7ADB /* WGPersonInfoViewController.m */,
+				327228A720931F1100FF7ADB /* Target_WGPersonInfoViewController.h */,
+				327228A820931F1100FF7ADB /* Target_WGPersonInfoViewController.m */,
+			);
+			path = TAPersonInfo;
+			sourceTree = "<group>";
+		};
+		3272289D2093192100FF7ADB /* TAPersonPrefrence */ = {
+			isa = PBXGroup;
+			children = (
+				32EAD14C20A3134100303F8D /* WGPersonPreferenceViewController.h */,
+				32EAD14D20A3134100303F8D /* WGPersonPreferenceViewController.m */,
+				32EAD14F20A3137300303F8D /* Target_WGPersonPreferenceViewController.h */,
+				32EAD15020A3137300303F8D /* Target_WGPersonPreferenceViewController.m */,
+			);
+			path = TAPersonPrefrence;
+			sourceTree = "<group>";
+		};
+		49813020B1670146C0B9E4E6 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				89693CBC03B13FDAF663BDEA /* Pods-WGLearnMTMediatorDemo.debug.xcconfig */,
+				7708D9CEA609DD52F1231B20 /* Pods-WGLearnMTMediatorDemo.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		F8F35BD2CDBE76E0A51AB5D6 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				548022E16851487050B06616 /* libPods-WGLearnMTMediatorDemo.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -139,9 +222,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 32722891209305C800FF7ADB /* Build configuration list for PBXNativeTarget "WGLearnMTMediatorDemo" */;
 			buildPhases = (
+				648538BFF0C1B19359028691 /* [CP] Check Pods Manifest.lock */,
 				32722861209305C800FF7ADB /* Sources */,
 				32722862209305C800FF7ADB /* Frameworks */,
 				32722863209305C800FF7ADB /* Resources */,
+				645D63577CF451FEB19D5C92 /* [CP] Embed Pods Frameworks */,
+				0C1D421A8F52ED71A4E1FB1B /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -240,7 +326,6 @@
 			files = (
 				32722875209305C800FF7ADB /* LaunchScreen.storyboard in Resources */,
 				32722872209305C800FF7ADB /* Assets.xcassets in Resources */,
-				32722870209305C800FF7ADB /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -260,14 +345,71 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		0C1D421A8F52ED71A4E1FB1B /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-WGLearnMTMediatorDemo/Pods-WGLearnMTMediatorDemo-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		645D63577CF451FEB19D5C92 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-WGLearnMTMediatorDemo/Pods-WGLearnMTMediatorDemo-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		648538BFF0C1B19359028691 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-WGLearnMTMediatorDemo-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		32722861209305C800FF7ADB /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				32EAD14E20A3134100303F8D /* WGPersonPreferenceViewController.m in Sources */,
 				3272286D209305C800FF7ADB /* ViewController.m in Sources */,
 				32722878209305C800FF7ADB /* main.m in Sources */,
 				3272286A209305C800FF7ADB /* AppDelegate.m in Sources */,
+				327228A920931F1100FF7ADB /* Target_WGPersonInfoViewController.m in Sources */,
+				327228A020931D0A00FF7ADB /* CTMediator+TAPersonInfo.m in Sources */,
+				327228A320931D3600FF7ADB /* CTMediator+TAPersonPreference.m in Sources */,
+				327228A620931E9300FF7ADB /* WGPersonInfoViewController.m in Sources */,
+				32EAD15120A3137300303F8D /* Target_WGPersonPreferenceViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -303,14 +445,6 @@
 /* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
-		3272286E209305C800FF7ADB /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				3272286F209305C800FF7ADB /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
 		32722873209305C800FF7ADB /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
@@ -428,6 +562,7 @@
 		};
 		32722892209305C800FF7ADB /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 89693CBC03B13FDAF663BDEA /* Pods-WGLearnMTMediatorDemo.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
@@ -442,6 +577,7 @@
 		};
 		32722893209305C800FF7ADB /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 7708D9CEA609DD52F1231B20 /* Pods-WGLearnMTMediatorDemo.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
